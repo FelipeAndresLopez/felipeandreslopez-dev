@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "date": "jun. 2019 - Actualmente",
+    "company": "Platzi",
+    "title": "Desarrollador Frontend",
+    "description": "Carrera de arquitecto y desarrollador Frontend."
+  },
+  {
+    "id": "2",
+    "date": "jul. 2018 - ene. 2021",
+    "company": "Passport Language Centers",
+    "title": "Inglés",
+    "description": "Curso de enseñanza del idioma inglés intermedio y avanzado."
+  },
+  {
+    "id": "3",
+    "date": "feb. 2010 - oct. 2015",
+    "company": "Universidad de Cundinamarca",
+    "title": "Ingeniero de Sistemas",
+    "description": "Pregrado en ingeniería de sistemas informáticos."
+  },
+  {
+    "id": "4",
+    "date": "feb. 2014 - dec. 2015",
+    "company": "Escuela Nacional de Informática",
+    "title": "Técnico en Sistemas",
+    "description": "Programa de educación técnica en sistemas informáticos y desarrollo de software."
+  },
+  {
+    "id": "5",
+    "date": "jan. 2003 - dec. 2008",
+    "company": "Escuela Normal Superior",
+    "title": "Bachiller Académico",
+    "description": "Realicé mis estudios secundarios en una institución educativa, especializada en la formación de docentes."
+  }
+]

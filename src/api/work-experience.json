@@ -1,0 +1,159 @@
+[
+  {
+    "id": "1",
+    "date": "dic. 2020 - actualmente",
+    "company": "Globant",
+    "title": "Desarrollador web frontend",
+    "description": "Desarrollo de interfaces de aplicaciones web y móviles.",
+    "list": [
+      {
+        "id": "1",
+        "name": "Javascript"
+      },
+      {
+        "id": "2",
+        "name": "Css"
+      },
+      {
+        "id": "3",
+        "name": "Html"
+      },
+      {
+        "id": "4",
+        "name": "React Js"
+      },
+      {
+        "id": "5",
+        "name": "Redux"
+      },
+      {
+        "id": "6",
+        "name": "REST API"
+      },
+      {
+        "id": "7",
+        "name": "Flutter"
+      },
+      {
+        "id": "8",
+        "name": "TailwindCSS"
+      },
+      {
+        "id": "9",
+        "name": "TypeScript"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "date": "dic. 2019 - dic. 2020",
+    "company": "TempEdge",
+    "title": "Desarrollador web frontend",
+    "description": "Desarrollo de páginas y componentes para una aplicación de gestión de nómina.",
+    "list": [
+      {
+        "id": "1",
+        "name": "Javascript"
+      },
+      {
+        "id": "2",
+        "name": "Css"
+      },
+      {
+        "id": "3",
+        "name": "Html"
+      },
+      {
+        "id": "4",
+        "name": "React Js"
+      },
+      {
+        "id": "5",
+        "name": "Redux"
+      },
+      {
+        "id": "6",
+        "name": "REST API"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "date": "nov. 2015 - abr. 2019",
+    "company": "Sinova",
+    "title": "Desarrollador web",
+    "description": "Construcción de aplicaciones web y extensiones, para automatizar flujos de trabajo de empresas y personas que usan Google WorkSpace.",
+    "list": [
+      {
+        "id": "1",
+        "name": "Javascript"
+      },
+      {
+        "id": "2",
+        "name": "Css"
+      },
+      {
+        "id": "3",
+        "name": "Html"
+      },
+      {
+        "id": "4",
+        "name": "Google Apps Script"
+      },
+      {
+        "id": "5",
+        "name": "MySQL"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "date": "feb. 2017 - ago. 2017",
+    "company": "Cocrealab",
+    "title": "Desarrollador web",
+    "description": "Construcción de una aplicación web, para visualizar la cobertura de la educación superior en Colombia.",
+    "list": [
+      {
+        "id": "1",
+        "name": "Javascript"
+      },
+      {
+        "id": "2",
+        "name": "Css"
+      },
+      {
+        "id": "3",
+        "name": "Html"
+      },
+      {
+        "id": "4",
+        "name": "PHP - Laravel"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "date": "ago. 2015 - oct. 2015",
+    "company": "Eforcers",
+    "title": "Desarrollador web",
+    "description": "Construcción de una extensión para la gestión de archivos de la red social del Grupo de Diarios de América.",
+    "list": [
+      {
+        "id": "1",
+        "name": "Javascript"
+      },
+      {
+        "id": "2",
+        "name": "Css"
+      },
+      {
+        "id": "3",
+        "name": "Html"
+      },
+      {
+        "id": "4",
+        "name": "PHP"
+      }
+    ]
+  }
+]
