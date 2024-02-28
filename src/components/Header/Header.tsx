@@ -7,17 +7,17 @@ const menuItems = [
   {
     id: '2',
     name: 'Experiencia',
-    url: '/#experiencia'
+    url: './#experiencia'
   },
   {
     id: '3',
     name: 'Educación',
-    url: '/#educacion'
+    url: './#educacion'
   },
   {
     id: '4',
     name: 'Sobre Mi',
-    url: '/#sobre-mi'
+    url: './#sobre-mi'
   }
 ]
 
