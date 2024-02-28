@@ -15,8 +15,8 @@ const AboutMe = (): JSX.Element => (
           Sobre Mi
         </h1>
       </div>
-      <div className='flex flex-row gap-8 items-flex-start'>
-        <p className='text-white text-lg font-light font-roboto text-justify'>
+      <div className='flex flex-row gap-8 items-flex-start flex-wrap sm:flex-nowrap'>
+        <p className='text-white text-lg font-light font-roboto text-justify order-1'>
           👋🏻 Hola viajero, gracias por tomar unos minutos de tu valioso tiempo para darle un vistazo a este sitio web.
           <br /><br />
           🙎🏻‍♂️ Me llamo Felipe Andrés López y he creado este sitio web como una hoja de vida digital para presentarme y mostrar mis habilidades y experiencia.

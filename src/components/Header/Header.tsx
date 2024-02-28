@@ -27,7 +27,7 @@ export const Header: React.FC = () => (
       {menuItems.map(({ id, name, url }) => (
         <a
           key={id}
-          className='py-2 px-4 hover:border-b-2 border-teal-300'
+          className='py-2 px-2 sm:px-4 hover:border-b-2 border-teal-300'
           href={url}
         >
           {name}
