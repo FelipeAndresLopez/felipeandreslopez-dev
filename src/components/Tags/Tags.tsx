@@ -1,7 +1,7 @@
-import { type List } from '../../types'
+import { type ListItem } from '../../types'
 
 interface Props {
-  list: List
+  list: ListItem[]
 }
 
 export const Tags: React.FC<Props> = ({ list }) => (
