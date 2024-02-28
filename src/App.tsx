@@ -10,6 +10,7 @@ import AboutMe from './pages/AboutMe/AboutMe.tsx'
 
 // components
 import { Footer } from './components/Footer/Footer.tsx'
+import { Header } from './components/Header/Header.tsx'
 
 // data
 import workExperiences from './api/work-experience.json'
@@ -25,6 +26,7 @@ const App = (): JSX.Element => {
   return (
     <>
       <div className='top-0 bottom-0 min-h-screen w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgb(34,126,168),rgb(0,42,61))]'>
+        <Header />
         <main className='section py-16 md:pt-36 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl flex flex-col gap-8'>
           <Home />
           <Experience workExperiences={workExperiences} />

@@ -8,7 +8,7 @@ import fotoPerfil from '../../assets/images/foto-familia-felipe.jpeg'
 
 const AboutMe = (): JSX.Element => (
   <>
-    <Section id="about-me">
+    <Section id="sobre-mi">
       <div className='flex items-center mb-8'>
         <ProfileIcon />
         <h1 className="m-0 ml-2 text-2xl text-white font-raleway sm:text-3xl font-bold">

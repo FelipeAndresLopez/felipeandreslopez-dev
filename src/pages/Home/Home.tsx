@@ -7,7 +7,7 @@ import fotoPerfil from '../../assets/images/foto-perfil-felipe.jpeg'
 
 const Home = (): JSX.Element => (
   <>
-    <Section id="home">
+    <Section id="inicio">
       <div className='max-w-2xl'>
         <div className='flex flex-row gap-4 items-center'>
           <CircleAvatar imageUrl={fotoPerfil} />
@@ -17,7 +17,7 @@ const Home = (): JSX.Element => (
         </div>
         <br />
 
-        <p className='text-white text-xl font-light [&>span]:light-green [&>span]:font-medium'>
+        <p className='text-white text-xl font-light [&>span]:text-teal-300 [&>span]:font-medium'>
           <span>Ingeniero de Sistemas</span> especializado en desarrollo de interfaces de usuario con
           <span> React JS</span>.
           Más de 5 años de experiencia en

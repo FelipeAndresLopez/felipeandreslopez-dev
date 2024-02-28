@@ -12,7 +12,7 @@ interface Props {
 
 const Experience: React.FC<Props> = ({ workExperiences }) => (
   <>
-    <Section id="experience">
+    <Section id="experiencia">
       <div className='flex items-center'>
         <BriefcaseIcon />
         <h1 className="m-0 ml-2 text-2xl text-white font-raleway sm:text-3xl font-bold">

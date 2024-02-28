@@ -12,7 +12,7 @@ interface Props {
 
 const Education: React.FC<Props> = ({ educationTitles }) => (
   <>
-    <Section id="education">
+    <Section id="educacion">
       <div className='flex items-center'>
         <BookIcon />
         <h1 className="m-0 ml-2 text-2xl text-white font-raleway sm:text-3xl font-bold">
