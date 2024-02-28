@@ -2,7 +2,7 @@ const menuItems = [
   {
     id: '1',
     name: 'Inicio',
-    url: '/#inicio'
+    url: './#inicio'
   },
   {
     id: '2',
