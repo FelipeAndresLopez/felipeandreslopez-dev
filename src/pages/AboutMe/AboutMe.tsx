@@ -38,7 +38,7 @@ const AboutMe = (): JSX.Element => (
         ✉️ Si hay algo en lo que te pueda ayudar, relacionado a la programación, no dudes en contactarme.<br />
         Acá te dejo mi email, por si quieres dejarme un mensaje.👇🏻
         <br />
-        <strong className='text-teal-300 font-medium '>felipeandreslopez91@gmail.com</strong>
+        <strong className='text-teal-300 font-medium '><a href="mailto:felipeandreslopez91@gmail.com" >felipeandreslopez91@gmail.com</a></strong>
         <br /> <br />
         ✌🏻Te mando un abrazo y espero la estés pasando bien.
       </p>

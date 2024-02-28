@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
+
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://felipeandreslopez.github.io/felipeandreslopez-dev/'
+  base: process.env.NODE_ENV === 'production' ? 'https://felipeandreslopez.github.io/felipeandreslopez-dev/' : './'
 })
