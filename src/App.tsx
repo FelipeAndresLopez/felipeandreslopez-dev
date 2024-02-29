@@ -16,7 +16,7 @@ import { Header } from './components/Header/Header.tsx'
 import workExperiences from './api/work-experience.json'
 import educationTitles from './api/education.json'
 
-const App = (): JSX.Element => {
+export const App: React.FC = () => {
   useEffect(() => {
     ReactGA.initialize('UA-172560430-1')
     // To report page view
@@ -38,5 +38,3 @@ const App = (): JSX.Element => {
     </>
   )
 }
-
-export default App

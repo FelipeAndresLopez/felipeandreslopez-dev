@@ -7,30 +7,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Variables */
-:root {
-  --white: white;
-  --gray: #b1b1b1;
-  --dark-gray: #2e2e2e;
-  --black: black;
-  --normal-blue: #1d91c7;
-  --light-green: #15d4a9;
-
-  --dark-blue-4: #002a3df2;
-  --dark-blue-3: #002a3d;
-  --dark-blue-2: #0f4c69;
-  --dark-blue-1: #227ea8;
-
-  --light-blue-3: #59b7e3;
-  --light-blue-2: #90d5f5;
-  --light-blue-1: #b5e7ff;
-
-  --dark-blue-gray-3: #366377;
-  --dark-blue-gray-2: #5d8ba0;
-  --dark-blue-gray-1: #80b0c6;
-  --spacing: 1rem;
-}
-
 @layer base {
   html {
     font-family: "Raleway", "Roboto" sans-serif;
