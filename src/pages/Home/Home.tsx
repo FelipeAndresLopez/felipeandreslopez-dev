@@ -26,7 +26,8 @@ const Home = (): JSX.Element => (
             id='home.paragraph'
             defaultMessage='home.paragraph'
             values={{
-              span: chunks => <span>{chunks}</span>
+              span: chunks => <span>{chunks}</span>,
+              br: <br />
             }}
           />
         </p>

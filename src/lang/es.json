@@ -4,7 +4,7 @@
   "menu.item.education": "Educación",
   "menu.item.experience": "Experiencia",
   "home.title": "Hola mundo 🌎, soy Felipe",
-  "home.paragraph": "<span>Ingeniero de Sistemas</span> especializado en desarrollo de interfaces de usuario con  <span> React JS</span>. Más de 5 años de experiencia en <span> desarrollo de aplicaciones web</span>. Orgullosamente Colombiano 🇨🇴.",
+  "home.paragraph": "<span>Ingeniero de Sistemas</span> especializado en desarrollo de interfaces de usuario con  <span> React JS</span>. Más de 5 años de experiencia en <span> desarrollo de aplicaciones web</span>. {br}Orgullosamente Colombiano 🇨🇴.",
   "experience.title": "Experiencia Laboral",
   "experience.1.date": "dic. 2020 - actualmente",
   "experience.1.title": "Desarrollador web frontend",
@@ -36,5 +36,9 @@
   "education.4.description": "Programa de educación técnica en sistemas informáticos y desarrollo de software.",
   "education.5.date": "ene. 2003 - dic. 2008",
   "education.5.title": "Bachiller Académico",
-  "education.5.description": "Realicé mis estudios secundarios en una institución educativa, especializada en la formación de docentes."
+  "education.5.description": "Realicé mis estudios secundarios en una institución educativa, especializada en la formación de docentes.",
+  "about.title": "About Me",
+  "about.description": "👋🏻 Hola viajero, gracias por tomar unos minutos de tu valioso tiempo para darle un vistazo a este sitio web. {br}{br} 🙎🏻‍♂️ Me llamo Felipe Andrés López y he creado este sitio web como una hoja de vida digital para presentarme y mostrar mis habilidades y experiencia. {br}{br}  🤓 Como ya te habrás podido dar cuenta me encanta el desarrollo web, en especial el que esta enfocado en construir las interfaces de usuario. Sin embargo también he estado explorando otras tecnologías como NodeJS, Express, AWS y REST.",
+  "about.description-2": "{br}  🎸 Además del desarrollo web, disfruto de otras actividades como cantar, tocar guitarra, el ciclomontañismo y aprender. Hay nuevos hábitos que estoy incorporando a mi rutina, como la lectura de libros de finanzas y la meditación. {br} {br} ✉️ Si hay algo en lo que te pueda ayudar, relacionado a la programación, no dudes en contactarme.{br} Acá te dejo mi email, por si quieres dejarme un mensaje.👇🏻  {br}",
+  "about.farewell": "✌🏻 Te mando un abrazo y espero la estés pasando bien."
 }

@@ -4,7 +4,7 @@
   "menu.item.education": "Education",
   "menu.item.experience": "Experience",
   "home.title": "Hello World 🌎, I am Felipe",
-  "home.paragraph": "<span>Computing Engineer</span> focused on user interface development with <span> React JS</span>. More than 5 years of experience in <span> web development</span>. Proudly Colombian 🇨🇴.",
+  "home.paragraph": "<span>Computing Engineer</span> focused on user interface development with <span> React JS</span>. More than 5 years of experience in <span> web development</span>. {br}Proudly Colombian 🇨🇴.",
   "experience.title": "Work Experience",
   "experience.1.date": "dec. 2020 - continue",
   "experience.1.title": "Web UI Developer",
@@ -36,5 +36,9 @@
   "education.4.description": "Technical support course in computer systems and software development.",
   "education.5.date": "jan. 2003 - dec. 2008",
   "education.5.title": "Academic Bachelor",
-  "education.5.description": "I completed my high school at an educational institution, specialized in teacher training."
+  "education.5.description": "I completed my high school at an educational institution, specialized in teacher training.",
+  "about.title": "About Me",
+  "about.description": "👋🏻 Hello traveler, thank you for taking a few minutes of your valuable time to take a look at this website. {br}{br} 🙎🏻‍♂️ My name is Felipe Andrés López and I have created this website as a digital resume to introduce myself and show my skills and experience. {br}{br}  🤓 As you may have already realized, I love web development, especially the one that is focused on building user interfaces. However, I have also been exploring other technologies such as NodeJS, Express, AWS and REST.",
+  "about.description-2": "{br}  🎸 In addition to web development, I enjoy other activities such as singing, playing guitar, mountain biking, and learning. There are new habits that I am incorporating into my routine, such as reading financial books and meditating. {br} {br} ✉️ If there is anything I can help you with, related to programming, do not hesitate to contact me. Here I leave you my email, in case you want to leave me a message.👇🏻  {br}",
+  "about.farewell": "✌🏻 I send you a hug and I hope you are having a good time."
 }
