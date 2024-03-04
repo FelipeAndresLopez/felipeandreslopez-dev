@@ -1,6 +1,7 @@
 // external
 import { useEffect } from 'react'
 import ReactGA from 'react-ga'
+import { IntlProvider } from 'react-intl'
 
 // pages
 import Home from './pages/Home/Home.tsx'
@@ -16,7 +17,15 @@ import { Header } from './components/Header/Header.tsx'
 import workExperiences from './api/work-experience.json'
 import educationTitles from './api/education.json'
 
+// hooks
+import { useLanguage } from './hooks/useLanguage.tsx'
+
+// const or utils
+import { USER_LANGUAGE } from './const.ts'
+
 export const App: React.FC = () => {
+  const { translations } = useLanguage()
+
   useEffect(() => {
     ReactGA.initialize('UA-172560430-1')
     // To report page view
@@ -24,8 +33,9 @@ export const App: React.FC = () => {
   }, [])
 
   return (
-    <>
+    <IntlProvider messages={translations} locale={USER_LANGUAGE} defaultLocale={USER_LANGUAGE}>
       <div className='top-0 bottom-0 min-h-screen w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgb(34,126,168),rgb(0,42,61))]'>
+        {USER_LANGUAGE}
         <Header />
         <main className='px-8 sm:px-0 py-16 md:pt-36 scroll-m-20 w-full mx-auto lg:max-w-4xl md:max-w-2xl flex flex-col gap-8'>
           <Home />
@@ -35,6 +45,6 @@ export const App: React.FC = () => {
         </main>
         <Footer />
       </div>
-    </>
+    </IntlProvider>
   )
 }

@@ -4,3 +4,6 @@
 - [x] Crear la página de sobre mi
 - [x] Crear el menu de navegación
 - [x] Hacer la página responsive
+- [ ] Agregar idioma inglés
+- [ ] Agregar dark and light mode and system mode
+- [ ] Fix Google Analytics tracking
