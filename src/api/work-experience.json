@@ -1,10 +1,10 @@
 [
   {
     "id": "1",
-    "date": "dic. 2020 - actualmente",
+    "date": "experience.1.date",
     "company": "Globant",
-    "title": "Desarrollador web frontend",
-    "description": "Desarrollo de interfaces de aplicaciones web y móviles.",
+    "title": "experience.1.title",
+    "description": "experience.1.description",
     "list": [
       {
         "id": "1",
@@ -46,10 +46,10 @@
   },
   {
     "id": "2",
-    "date": "dic. 2019 - dic. 2020",
+    "date": "experience.2.date",
     "company": "TempEdge",
-    "title": "Desarrollador web frontend",
-    "description": "Desarrollo de páginas y componentes para una aplicación de gestión de nómina.",
+    "title": "experience.2.title",
+    "description": "experience.2.description",
     "list": [
       {
         "id": "1",
@@ -79,10 +79,10 @@
   },
   {
     "id": "3",
-    "date": "nov. 2015 - abr. 2019",
+    "date": "experience.3.date",
     "company": "Sinova",
-    "title": "Desarrollador web",
-    "description": "Construcción de aplicaciones web y extensiones, para automatizar flujos de trabajo de empresas y personas que usan Google WorkSpace.",
+    "title": "experience.3.title",
+    "description": "experience.3.description",
     "list": [
       {
         "id": "1",
@@ -108,10 +108,10 @@
   },
   {
     "id": "4",
-    "date": "feb. 2017 - ago. 2017",
+    "date": "experience.4.date",
     "company": "Cocrealab",
-    "title": "Desarrollador web",
-    "description": "Construcción de una aplicación web, para visualizar la cobertura de la educación superior en Colombia.",
+    "title": "experience.4.title",
+    "description": "experience.4.description",
     "list": [
       {
         "id": "1",
@@ -133,10 +133,10 @@
   },
   {
     "id": "5",
-    "date": "ago. 2015 - oct. 2015",
+    "date": "experience.5.date",
     "company": "Eforcers",
-    "title": "Desarrollador web",
-    "description": "Construcción de una extensión para la gestión de archivos de la red social del Grupo de Diarios de América.",
+    "title": "experience.5.title",
+    "description": "experience.5.description",
     "list": [
       {
         "id": "1",

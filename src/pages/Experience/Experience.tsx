@@ -1,3 +1,6 @@
+// external
+import { FormattedMessage } from 'react-intl'
+
 // components
 import { Timeline } from '../../components/Timeline/Timeline.tsx'
 import { Section } from '../../components/Section/Section.tsx'
@@ -12,11 +15,14 @@ interface Props {
 
 const Experience: React.FC<Props> = ({ workExperiences }) => (
   <>
-    <Section id="experiencia">
+    <Section id='experiencia'>
       <div className='flex items-center'>
         <BriefcaseIcon />
-        <h1 className="m-0 ml-2 text-2xl text-white font-raleway sm:text-3xl font-bold">
-          Experiencia Laboral
+        <h1 className='m-0 ml-2 text-2xl text-white font-raleway sm:text-3xl font-bold'>
+          <FormattedMessage
+            id='experience.title'
+            defaultMessage='experience.title'
+          />
         </h1>
       </div>
       <Timeline timelineEvents={workExperiences} />

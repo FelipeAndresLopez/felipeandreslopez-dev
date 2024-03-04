@@ -1,37 +1,37 @@
 [
   {
     "id": "1",
-    "date": "jun. 2019 - Actualmente",
+    "date": "education.1.date",
     "company": "Platzi",
-    "title": "Desarrollador Frontend",
-    "description": "Carrera de arquitecto y desarrollador Frontend."
+    "title": "education.1.title",
+    "description": "education.1.description"
   },
   {
     "id": "2",
-    "date": "jul. 2018 - ene. 2021",
+    "date": "education.2.date",
     "company": "Passport Language Centers",
-    "title": "Inglés",
-    "description": "Curso de enseñanza del idioma inglés intermedio y avanzado."
+    "title": "education.2.title",
+    "description": "education.2.description"
   },
   {
     "id": "3",
-    "date": "feb. 2010 - oct. 2015",
+    "date": "education.3.date",
     "company": "Universidad de Cundinamarca",
-    "title": "Ingeniero de Sistemas",
-    "description": "Pregrado en ingeniería de sistemas informáticos."
+    "title": "education.3.title",
+    "description": "education.3.description"
   },
   {
     "id": "4",
-    "date": "feb. 2014 - dec. 2015",
+    "date": "education.4.date",
     "company": "Escuela Nacional de Informática",
-    "title": "Técnico en Sistemas",
-    "description": "Programa de educación técnica en sistemas informáticos y desarrollo de software."
+    "title": "education.4.title",
+    "description": "education.4.description"
   },
   {
     "id": "5",
-    "date": "jan. 2003 - dec. 2008",
+    "date": "education.5.date",
     "company": "Escuela Normal Superior",
-    "title": "Bachiller Académico",
-    "description": "Realicé mis estudios secundarios en una institución educativa, especializada en la formación de docentes."
+    "title": "education.5.title",
+    "description": "education.5.description"
   }
 ]
