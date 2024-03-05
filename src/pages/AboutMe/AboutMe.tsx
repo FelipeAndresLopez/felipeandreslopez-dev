@@ -14,7 +14,7 @@ const AboutMe = (): JSX.Element => (
     <Section id="sobre-mi">
       <div className='flex items-center mb-8'>
         <ProfileIcon />
-        <h1 className="m-0 ml-2 text-2xl text-white font-raleway sm:text-3xl font-bold">
+        <h1 className="m-0 ml-2 text-2xl text-primary-lm dark:text-primary-dm font-raleway sm:text-3xl font-bold">
           <FormattedMessage
             id='about.title'
             defaultMessage='about.title'
@@ -22,7 +22,7 @@ const AboutMe = (): JSX.Element => (
         </h1>
       </div>
       <div className='flex flex-row flex-wrap gap-8 items-flex-start sm:flex-nowrap'>
-        <p className='text-white text-lg font-light font-roboto text-justify order-1'>
+        <p className='text-primary-lm dark:text-primary-dm text-lg font-light font-roboto text-justify order-1'>
           <FormattedMessage
             id='about.description'
             defaultMessage='about.description'
@@ -35,7 +35,7 @@ const AboutMe = (): JSX.Element => (
         <SquareAvatar imageUrl={photoFamily} />
 
       </div>
-      <p className='text-white text-lg font-light font-roboto text-justify'>
+      <p className='text-primary-lm dark:text-primary-dm text-lg font-light font-roboto text-justify'>
         <FormattedMessage
           id='about.description-2'
           defaultMessage='about.description-2'
@@ -43,7 +43,7 @@ const AboutMe = (): JSX.Element => (
             br: <br />
           }}
         />
-        <strong className='text-teal-300 font-medium '><a href="mailto:felipeandreslopez91@gmail.com" >felipeandreslopez91@gmail.com</a></strong>
+        <strong className='text-secondary-lm dark:text-secondary-dm font-medium '><a href="mailto:felipeandreslopez91@gmail.com" >felipeandreslopez91@gmail.com</a></strong>
         <br /> <br />
         <FormattedMessage
           id='about.farewell'

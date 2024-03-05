@@ -18,7 +18,7 @@ const Education: React.FC<Props> = ({ educationTitles }) => (
     <Section id='educacion'>
       <div className='flex items-center'>
         <BookIcon />
-        <h1 className='m-0 ml-2 text-2xl text-white font-raleway sm:text-3xl font-bold'>
+        <h1 className='m-0 ml-2 text-2xl text-primary-lm dark:text-primary-dm font-raleway sm:text-3xl font-bold'>
           <FormattedMessage
             id='education.title'
             defaultMessage='education.title'

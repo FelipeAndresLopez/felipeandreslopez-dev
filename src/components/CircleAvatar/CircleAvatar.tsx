@@ -4,7 +4,7 @@ interface Props {
 
 export const CircleAvatar: React.FC<Props> = ({ imageUrl }) => (
   <img
-    className="aspect-square rounded-full shadow-lg size-24 border-4 border-teal-300/40 gap-3"
+    className="aspect-square rounded-full shadow-lg size-24 border-4 border-secondary-lm dark:border-secondary-dm gap-3"
     src={imageUrl}
     alt="Felipe picture"
   />

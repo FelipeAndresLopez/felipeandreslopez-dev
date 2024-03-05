@@ -18,7 +18,7 @@ const Experience: React.FC<Props> = ({ workExperiences }) => (
     <Section id='experiencia'>
       <div className='flex items-center'>
         <BriefcaseIcon />
-        <h1 className='m-0 ml-2 text-2xl text-white font-raleway sm:text-3xl font-bold'>
+        <h1 className='m-0 ml-2 text-2xl text-primary-lm dark:text-primary-dm font-raleway sm:text-3xl font-bold'>
           <FormattedMessage
             id='experience.title'
             defaultMessage='experience.title'

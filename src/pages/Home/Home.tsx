@@ -12,7 +12,7 @@ const Home = (): JSX.Element => (
       <div className='max-w-2xl'>
         <div className='flex flex-row gap-4 items-center'>
           <CircleAvatar imageUrl={fotoPerfil} />
-          <h1 className='m-0 text-2xl text-white font-raleway sm:text-5xl font-bold'>
+          <h1 className='m-0 text-2xl text-primary-lm dark:text-primary-dm font-raleway sm:text-5xl font-bold'>
             <FormattedMessage
               id='home.title'
               defaultMessage='home.title'
@@ -21,7 +21,7 @@ const Home = (): JSX.Element => (
         </div>
         <br />
 
-        <p className='text-white text-xl font-light [&>span]:text-teal-300 [&>span]:font-medium'>
+        <p className='text-primary-lm dark:text-primary-dm text-xl font-light [&>span]:text-secondary-lm dark:[&>span]:text-secondary-dm [&>span]:font-medium'>
           <FormattedMessage
             id='home.paragraph'
             defaultMessage='home.paragraph'

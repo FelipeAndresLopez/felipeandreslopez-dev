@@ -6,9 +6,9 @@ export const BookIcon: React.FC<Props> = ({ className = 'size-9' }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className={className}
-      fill="#fff"
-      stroke="#fff"
+      className={`${className} fill-primary-lg dark:fill-primary-dm`}
+      fill=""
+      stroke="transparent"
       strokeWidth="0"
       viewBox="-2.4 -2.4 28.8 28.8"
     >

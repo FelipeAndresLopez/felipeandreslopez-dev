@@ -9,7 +9,7 @@ export const Tags: React.FC<Props> = ({ list }) => (
     {list.map(({ name, id }) => (
       <li
         key={id}
-        className='text-white text-sm font-light font-roboto border border-teal-300/30  py-0 px-2 mt-2'
+        className='text-primary-lm dark:text-primary-dm text-sm font-light font-roboto border border-secondary-lm dark:border-secondary-dm  py-0 px-2 mt-2'
       >
         {name}
       </li>

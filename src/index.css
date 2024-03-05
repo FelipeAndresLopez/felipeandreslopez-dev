@@ -11,6 +11,15 @@
   html {
     font-family: "Raleway", "Roboto" sans-serif;
   }
+
+  :root {
+    /* lm: light mode, dm: dark mode */
+    --primary-color-lm: 0 0 0;
+    --secondary-color-lm: 20 184 166;
+    --primary-color-dm: 255 255 255;
+    --secondary-color-dm: 94 234 212;
+
+  }
 }
 
 * {

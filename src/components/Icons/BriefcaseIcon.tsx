@@ -5,16 +5,16 @@ interface Props {
 export const BriefcaseIcon: React.FC<Props> = ({ className = 'size-7' }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="#fff"
+    fill=""
     stroke="#fff"
     version="1.1"
     viewBox="0 0 400 400"
-    className={className}
+    className={`${className} fill-primary-lg dark:fill-primary-dm`}
   >
     <g>
       <g transform="translate(0 -652.362)">
         <path
-          fill="#fff"
+          fill=""
           fillOpacity="1"
           strokeDasharray="none"
           strokeDashoffset="0"
