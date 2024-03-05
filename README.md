@@ -5,5 +5,6 @@
 - [x] Crear el menu de navegación
 - [x] Hacer la página responsive
 - [x] Agregar idioma inglés
-- [ ] Agregar dark and light mode and system mode
+- [x] Agregar light and dark mode
+- [ ] Botón para cambiar entre light y dark mode
 - [ ] Fix Google Analytics tracking
