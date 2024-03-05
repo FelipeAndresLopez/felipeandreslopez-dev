@@ -2,12 +2,12 @@
 import { FormattedMessage } from 'react-intl'
 
 // components
-import { BookIcon } from '../../components/Icons/BookIcon.tsx'
-import { Section } from '../../components/Section/Section.tsx'
-import { Timeline } from '../../components/Timeline/Timeline.tsx'
+import { BookIcon } from '@/components/Icons/BookIcon.tsx'
+import { Section } from '@/components/Section/Section.tsx'
+import { Timeline } from '@/components/Timeline/Timeline.tsx'
 
 // types
-import { type TimelineEvent } from '../../types'
+import { type TimelineEvent } from '@/types'
 
 interface Props {
   educationTitles: TimelineEvent[]

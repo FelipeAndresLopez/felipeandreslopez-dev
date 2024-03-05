@@ -5,7 +5,7 @@ import { FormattedMessage } from 'react-intl'
 import { Tags } from '../Tags/Tags'
 
 // types
-import { type TimelineEvent } from '../../types'
+import { type TimelineEvent } from '@/types'
 
 interface Props {
   timelineEvent: TimelineEvent

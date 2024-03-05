@@ -2,12 +2,12 @@
 import { FormattedMessage } from 'react-intl'
 
 // components
-import { Timeline } from '../../components/Timeline/Timeline.tsx'
-import { Section } from '../../components/Section/Section.tsx'
-import { BriefcaseIcon } from '../../components/Icons/BriefcaseIcon.tsx'
+import { Timeline } from '@/components/Timeline/Timeline.tsx'
+import { Section } from '@/components/Section/Section.tsx'
+import { BriefcaseIcon } from '@/components/Icons/BriefcaseIcon.tsx'
 
 // types
-import { type TimelineEvent } from '../../types'
+import { type TimelineEvent } from '@/types'
 
 interface Props {
   workExperiences: TimelineEvent[]

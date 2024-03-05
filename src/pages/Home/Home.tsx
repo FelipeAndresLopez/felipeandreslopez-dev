@@ -1,10 +1,12 @@
+// external
+import { FormattedMessage } from 'react-intl'
+
 // components
-import { Section } from '../../components/Section/Section.tsx'
-import { CircleAvatar } from '../../components/CircleAvatar/CircleAvatar.tsx'
+import { Section } from '@/components/Section/Section.tsx'
+import { CircleAvatar } from '@/components/CircleAvatar/CircleAvatar.tsx'
 
 // assets
-import fotoPerfil from '../../assets/images/foto-perfil-felipe.jpeg'
-import { FormattedMessage } from 'react-intl'
+import fotoPerfil from '@/assets/images/foto-perfil-felipe.jpeg'
 
 const Home = (): JSX.Element => (
   <>

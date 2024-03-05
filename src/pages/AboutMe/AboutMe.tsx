@@ -2,12 +2,12 @@
 import { FormattedMessage } from 'react-intl'
 
 // components
-import { Section } from '../../components/Section/Section.tsx'
-import { SquareAvatar } from '../../components/SquareAvatar/SquareAvatar.tsx'
-import { ProfileIcon } from '../../components/Icons/ProfileIcon.tsx'
+import { Section } from '@/components/Section/Section.tsx'
+import { SquareAvatar } from '@/components/SquareAvatar/SquareAvatar.tsx'
+import { ProfileIcon } from '@/components/Icons/ProfileIcon.tsx'
 
 // assets
-import photoFamily from '../../assets/images/foto-familia-felipe.jpeg'
+import photoFamily from '@/assets/images/foto-familia-felipe.jpeg'
 
 const AboutMe = (): JSX.Element => (
   <>
