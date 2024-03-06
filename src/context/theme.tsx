@@ -2,13 +2,13 @@
 import { createContext, useState } from 'react'
 
 // const
-import { userTheme } from '@/const'
+import { USER_THEME } from '@/const'
 
 // types
 import { type ThemeContextType, type ThemeType } from '@/types'
 
 const initialState: ThemeContextType = {
-  theme: userTheme,
+  theme: USER_THEME,
   setTheme: () => { }
 }
 
@@ -19,7 +19,7 @@ interface Props {
 }
 
 export const ThemeProvider: React.FC<Props> = ({ children }) => {
-  const [theme, setTheme] = useState<ThemeType>(userTheme)
+  const [theme, setTheme] = useState<ThemeType>(USER_THEME)
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}

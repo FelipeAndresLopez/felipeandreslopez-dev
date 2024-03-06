@@ -4,13 +4,17 @@ import { FormattedMessage } from 'react-intl'
 
 // context
 import { ThemeContext } from '@/context/theme'
+import { LanguageContext } from '@/context/language'
+
+// const
+import { LANGUAGES, THEMES } from '@/const'
 
 const menuItems = [
   {
     id: '1',
-    name: 'Inicio',
+    name: '🏠',
     url: './#inicio',
-    translationId: 'menu.item.home'
+    translationId: '🏠'
   },
   {
     id: '2',
@@ -34,10 +38,15 @@ const menuItems = [
 
 export const Header: React.FC = () => {
   const { theme, setTheme } = useContext(ThemeContext)
+  const { language, setLanguage } = useContext(LanguageContext)
 
   const handleThemeToggle = (): void => {
-    setTheme(theme === 'light' ? 'dark' : 'light')
-    document.documentElement.classList.toggle('dark')
+    setTheme(theme === THEMES.LIGHT ? THEMES.DARK : THEMES.LIGHT)
+    document.documentElement.classList.toggle(THEMES.DARK)
+  }
+
+  const handleLanguageToggle = (): void => {
+    setLanguage(language === LANGUAGES.SPANISH ? LANGUAGES.ENGLISH : LANGUAGES.SPANISH)
   }
 
   return (
@@ -55,11 +64,20 @@ export const Header: React.FC = () => {
             />
           </a>
         ))}
-        <button type="button" onClick={handleThemeToggle}>
-          <p className='text-lg'>
-            {theme === 'light' ? '🌙' : '☀️'}
-          </p>
-        </button>
+
+        <div className='mx-2 sm:mx-4 flex' >
+          <button type="button" onClick={handleThemeToggle}>
+            <p className='text-lg'>
+              {theme === THEMES.LIGHT ? '🌙' : '☀️'}
+            </p>
+          </button>
+          <div className='border m-2 border-primary-dm dark:border-secondary-dm h-5' />
+          <button type="button" onClick={handleLanguageToggle}>
+            <p className='text-lg'>
+              {language === LANGUAGES.SPANISH ? '🇺🇸' : '🇪🇸'}
+            </p>
+          </button>
+        </div>
       </nav>
     </header>
   )

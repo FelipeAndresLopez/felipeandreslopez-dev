@@ -1,6 +1,7 @@
+// TODO: refactor
+// import ReactGA from 'react-ga'
 // external
-import { useEffect } from 'react'
-import ReactGA from 'react-ga'
+import { useContext } from 'react'
 import { IntlProvider } from 'react-intl'
 
 // pages
@@ -17,22 +18,21 @@ import { Header } from './components/Header/Header.tsx'
 import workExperiences from './api/work-experience.json'
 import educationTitles from './api/education.json'
 
-// hooks
-import { useLanguage } from './hooks/useLanguage.tsx'
-
 // const or utils
 import { USER_LANGUAGE } from './const.ts'
 
 // context
 import { ThemeProvider } from './context/theme.tsx'
+import { LanguageContext } from './context/language.tsx'
 
 export const App: React.FC = () => {
-  const { translations } = useLanguage()
-  useEffect(() => {
-    ReactGA.initialize('UA-172560430-1')
-    // To report page view
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  }, [])
+  const { translations } = useContext(LanguageContext)
+  // TODO: fix this
+  // useEffect(() => {
+  //   ReactGA.initialize('UA-172560430-1')
+  //   // To report page view
+  //   ReactGA.pageview(window.location.pathname + window.location.search)
+  // }, [])
 
   return (
     <ThemeProvider>
