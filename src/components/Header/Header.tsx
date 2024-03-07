@@ -65,14 +65,14 @@ export const Header: React.FC = () => {
         ))}
 
       </nav>
-      <div className='mx-2 sm:mx-4 mt-4 flex flex-col fixed sm:relative bottom-0 right-0' >
+      <div className='p-2 sm:p-1 m-2 sm:mt-6 flex flex-col sm:flex-row gap-2 fixed sm:relative bottom-0 right-0 backdrop-blur-sm   rounded-xl  border-secondary-lm border-0' >
         <button type="button" onClick={handleThemeToggle}>
-          <p className='text-lg'>
+          <p className='text-xl'>
             {theme === THEMES.LIGHT ? '🌙' : '☀️'}
           </p>
         </button>
         <button type="button" onClick={handleLanguageToggle}>
-          <p className='text-lg'>
+          <p className='text-xl'>
             {language === LANGUAGES.SPANISH ? '🇺🇸' : '🇪🇸'}
           </p>
         </button>
