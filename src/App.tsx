@@ -39,7 +39,7 @@ export const App: React.FC = () => {
       <IntlProvider messages={translations} locale={USER_LANGUAGE} defaultLocale={USER_LANGUAGE}>
         <div className='top-0 bottom-0 min-h-screen w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgb(255,255,255),rgb(255,252,240))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgb(34,126,168),rgb(0,42,61))]'>
           <Header />
-          <main className='px-8 sm:px-0 py-16 md:pt-36 scroll-m-20 w-full mx-auto lg:max-w-4xl md:max-w-2xl flex flex-col gap-8'>
+          <main className='px-8 sm:px-0 py-20 md:pt-36 scroll-m-20 w-full mx-auto lg:max-w-4xl md:max-w-2xl flex flex-col gap-8'>
             <Home />
             <Experience workExperiences={workExperiences} />
             <Education educationTitles={educationTitles} />
