@@ -18,7 +18,10 @@
     --secondary-color-lm: 20 184 166;
     --primary-color-dm: 255 255 255;
     --secondary-color-dm: 94 234 212;
-
+    --bg-color-dm-from: 34 126 168;
+    --bg-color-dm-to: 0 42 61;
+    --bg-color-lm-from: 255 255 255;
+    --bg-color-lm-to: 255 252 250;
   }
 }
 
@@ -33,6 +36,13 @@ html {
   height: 100%;
   scroll-behavior: smooth;
 }
+
+.bkg-base {
+  opacity: 1;
+  background-size: 200px 200px;
+  background-position: 0 0, 100px 100px;
+}
+
 
 .progress-bar {
   position: fixed;

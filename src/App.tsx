@@ -37,7 +37,7 @@ export const App: React.FC = () => {
   return (
     <ThemeProvider>
       <IntlProvider messages={translations} locale={USER_LANGUAGE} defaultLocale={USER_LANGUAGE}>
-        <div className='top-0 bottom-0 min-h-screen w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgb(255,255,255),rgb(255,252,240))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgb(34,126,168),rgb(0,42,61))]'>
+        <div className='top-0 bottom-0 min-h-screen w-full bkg-base bg-bkg-lm dark:bg-bkg-dm'>
           <div className='progress-bar bg-secondary-lm dark:bg-secondary-dm'></div>
           <Header />
           <main className='px-8 sm:px-0 py-12 md:pt-20 scroll-m-20 w-full mx-auto lg:max-w-4xl md:max-w-2xl flex flex-col gap-8'>
