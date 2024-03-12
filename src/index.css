@@ -33,3 +33,25 @@ html {
   height: 100%;
   scroll-behavior: smooth;
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  animation-name: progress-grow;
+  animation-timing-function: linear;
+  animation-timeline: scroll(root);
+  z-index: 9;
+}
+
+@keyframes progress-grow {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}

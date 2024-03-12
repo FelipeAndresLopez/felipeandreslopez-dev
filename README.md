@@ -6,5 +6,7 @@
 - [x] Hacer la página responsive
 - [x] Agregar idioma inglés
 - [x] Agregar light and dark mode
-- [ ] Botón para cambiar entre light y dark mode
+- [x] Botón para cambiar entre light y dark mode
+- [x] Botón para cambiar entre idioma espanol e inglés
+- [x] añadir y animar con el scroll una top progress bar
 - [ ] Fix Google Analytics tracking
