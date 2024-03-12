@@ -23,7 +23,7 @@ export default {
     extend: {
       backgroundImage: {
         'bkg-dm': 'radial-gradient(rgb(var(--secondary-color-dm)) 1px, transparent 1px), radial-gradient(rgb(var(--secondary-color-dm)) 1px, rgb(var(--bg-color-dm-to)) 1px)',
-        'bkg-lm': 'radial-gradient(rgb(var(--bg-color-dm-to)) 1px, transparent 1px), radial-gradient(rgb(var(--bg-color-dm-to)) 1px, rgb(var(--bg-color-lm-to)) 1px)',
+        'bkg-lm': 'radial-gradient(rgb(var(--secondary-color-lm)) 2px, transparent 2px), radial-gradient(rgb(var(--secondary-color-lm)) 2px, rgb(var(--bg-color-lm-to)) 2px)',
       }
     },
   },

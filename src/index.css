@@ -65,3 +65,38 @@ html {
     width: 100%;
   }
 }
+
+.typewriter {
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid rgb(var(--secondary-color-dm));
+  white-space: nowrap;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret 1s step-end infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: rgb(var(--secondary-color-dm))
+  }
+}

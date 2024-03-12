@@ -14,12 +14,20 @@ const Home = (): JSX.Element => (
       <div className='max-w-2xl'>
         <div className='flex flex-row gap-4 items-center'>
           <CircleAvatar imageUrl={fotoPerfil} />
-          <h1 className='m-0 text-2xl text-primary-lm dark:text-primary-dm font-raleway sm:text-5xl font-bold'>
-            <FormattedMessage
-              id='home.title'
-              defaultMessage='home.title'
-            />
-          </h1>
+          <div>
+            <h1 className='typewriter  m-0 text-2xl text-primary-lm dark:text-primary-dm font-raleway sm:text-5xl font-bold'>
+              <FormattedMessage
+                id='home.greeting'
+                defaultMessage='home.greeting'
+              />
+            </h1>
+            <h1 className='m-0 text-2xl text-primary-lm dark:text-primary-dm font-monospace sm:text-5xl font-bold'>
+              <FormattedMessage
+                id='home.title'
+                defaultMessage='home.title'
+              />
+            </h1>
+          </div>
         </div>
         <br />
 
