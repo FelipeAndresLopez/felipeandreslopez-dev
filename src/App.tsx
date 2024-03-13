@@ -1,7 +1,7 @@
 // external
 import { useContext, useEffect } from 'react'
 import { IntlProvider } from 'react-intl'
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
 
 // pages
 import Home from './pages/Home/Home.tsx'
@@ -28,8 +28,6 @@ export const App: React.FC = () => {
   const { translations } = useContext(LanguageContext)
   useEffect(() => {
     ReactGA.initialize('G-5MKJX1LVPC')
-    // To report page view
-    ReactGA.pageview(window.location.pathname + window.location.search)
   }, [])
 
   return (
