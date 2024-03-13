@@ -1,8 +1,7 @@
-// TODO: refactor
-// import ReactGA from 'react-ga'
 // external
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { IntlProvider } from 'react-intl'
+import ReactGA from 'react-ga'
 
 // pages
 import Home from './pages/Home/Home.tsx'
@@ -27,12 +26,11 @@ import { LanguageContext } from './context/language.tsx'
 
 export const App: React.FC = () => {
   const { translations } = useContext(LanguageContext)
-  // TODO: fix this
-  // useEffect(() => {
-  //   ReactGA.initialize('UA-172560430-1')
-  //   // To report page view
-  //   ReactGA.pageview(window.location.pathname + window.location.search)
-  // }, [])
+  useEffect(() => {
+    ReactGA.initialize('G-5MKJX1LVPC')
+    // To report page view
+    ReactGA.pageview(window.location.pathname + window.location.search)
+  }, [])
 
   return (
     <ThemeProvider>
