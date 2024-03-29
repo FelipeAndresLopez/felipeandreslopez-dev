@@ -25,7 +25,7 @@ interface Props {
 
 export const LanguageProvider: React.FC<Props> = ({ children }) => {
   const [language, setLanguage] = useState<LanguageType>(USER_LANGUAGE)
-  const isSpanish = language === LANGUAGES.SPANISH || USER_LANGUAGE.includes(LANGUAGES.SPANISH) as boolean
+  const isSpanish = language === LANGUAGES.SPANISH
   const translations = isSpanish ? spanishTranslations : englishTranslations
 
   return (
